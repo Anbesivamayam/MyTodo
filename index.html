@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b612932e71.js" crossorigin="anonymous"></script>
+    <title>To Do list</title>
+</head>
+<body>
+      <h2>TO-DO LIST</h2>
+    <div class="navbar todos" id="todos">
+      <small id="count">Max 70 Characters.</small>
+        <div class="todo-input-container">
+    <input type="text" class="todo_input" id="todo_input" value="" placeholder="Add your List....."
+    value = "" maxlength = "70"> 
+    <i class="fas fa-plus add-item" ></i>
+    <i class="fas fa-trash-alt deleteBtn" onclick="deleteBulk()" ></i>
+    </div>
+</div>
+
+
+<!-- <ul class="todo-list-container">
+    <div class="todo-list">
+      <li class="todo-items">style me with three buttons other side</li>
+      <div class="button">
+        <button class="complete">
+          <i class="fa-solid fa-check"></i>
+        </button>
+        <button class="editBtn">
+          <i class="fa-solid fa-pen"></i>
+        </button>
+        <button class="trash">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+    </div>
+  </ul>  -->
+
+
+<script src="./todo.js"></script>
+
+
+
+</body>
+</html> 
